@@ -1,3 +1,8 @@
+>[!WARNING]
+>i'm an awful programmer, this script works for me but i have no idea if it works also in your setup.
+>i write this script with the help of AI.
+>hope you could fint it usefull.
+
 # easyeffect-auto-profile-change
 This script aim to allow the automatic profile change when you use easyeffect with pipewire virtual devices
 
