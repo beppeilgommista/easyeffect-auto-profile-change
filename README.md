@@ -7,8 +7,8 @@ What you need:
 3. Log File in: ~/.local/share/easyeffects-auto-preset.log - Tracks all preset changes
 
 Current Configuration:
-•  UMC_Speakers → Speaker preset
-•  UMC_Headphones → Hifiman-HE400SE preset
++  UMC_Speakers → Speaker preset
++  UMC_Headphones → Hifiman-HE400SE preset
 
 🎛️ How to Use:
 
@@ -46,7 +46,8 @@ systemctl --user start easyeffects-auto-preset.service
 2. Change line 11 from ENABLE_LOGGING=true to ENABLE_LOGGING=false (or the opposite)
 3. Restart the service: ``` systemctl --user restart easyeffects-auto-preset.service ```
 
-To customize presets: Edit the DEVICE_PRESETS array in the script and restart the service.
+# To customize presets
+Edit the DEVICE_PRESETS array in the script and restart the service.
 
 # Available commands
 ```
