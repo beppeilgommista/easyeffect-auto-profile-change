@@ -5,7 +5,7 @@ Wants=pipewire.service
 
 [Service]
 Type=simple
-ExecStart=/home/enrico/easyeffects-auto-preset.sh start
+ExecStart=~/easyeffects-auto-preset.sh start
 Restart=always
 RestartSec=3
 Environment=XDG_RUNTIME_DIR=/run/user/1000
