@@ -4,7 +4,8 @@ This script aim to allow the automatic profile change when you use easyeffect wi
 What you need:
 1. Script in: ~/easyeffects-auto-preset.sh - Monitors audio device changes and switches EasyEffects presets automatically
 2. Systemd Service: ~/.config/systemd/user/easyeffects-auto-preset.service - Runs the script automatically in the background
-3. Log File in: ~/.local/share/easyeffects-auto-preset.log - Tracks all preset changes
+3. edit the path with your username in the .service file 
+4. Log File in: ~/.local/share/easyeffects-auto-preset.log - Tracks all preset changes
 
 Current Configuration:
 +  UMC_Speakers → Speaker preset
